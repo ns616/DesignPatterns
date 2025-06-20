@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Pattern/Adapter/Adapter.csproj" />
+    <ProjectReference Include="../../Pattern/Bridge/Bridge.csproj" />
+    <ProjectReference Include="../../Pattern/Builder/Builder.csproj" />
+    <ProjectReference Include="../../Pattern/ChainOfResponsibility/ChainOfResponsibility.csproj" />
+    <ProjectReference Include="../../Pattern/Command/Command.csproj" />
+    <ProjectReference Include="../../Pattern/Composite/Composite.csproj" />
+    <ProjectReference Include="../../Pattern/Decorator/Decorator.csproj" />
+    <ProjectReference Include="../../Pattern/Facade/Facade.csproj" />
+    <ProjectReference Include="../../Pattern/Factory/Factory.csproj" />
+    <ProjectReference Include="../../Pattern/Flyweight/Flyweight.csproj" />
+    <ProjectReference Include="../../Pattern/Interpreter/Interpreter.csproj" />
+    <ProjectReference Include="../../Pattern/Mediator/Mediator.csproj" />
+    <ProjectReference Include="../../Pattern/Memento/Memento.csproj" />
+    <ProjectReference Include="../../Pattern/Observer/Observer.csproj" />
+    <ProjectReference Include="../../Pattern/Prototype/Prototype.csproj" />
+    <ProjectReference Include="../../Pattern/Proxy/Proxy.csproj" />
+    <ProjectReference Include="../../Pattern/Singleton/Singleton.csproj" />
+    <ProjectReference Include="../../Pattern/State/State.csproj" />
+    <ProjectReference Include="../../Pattern/Strategy/Strategy.csproj" />
+    <ProjectReference Include="../../Pattern/TemplateMethod/TemplateMethod.csproj" />
+    <ProjectReference Include="../../Pattern/UnitOfWork/UnitOfWork.csproj" />
+    <ProjectReference Include="../../Pattern/Visitor/Visitor.csproj" />
+  </ItemGroup>
+
+</Project>
