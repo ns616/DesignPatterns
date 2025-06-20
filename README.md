@@ -2,6 +2,31 @@
 
 This repository is a comprehensive educational resource demonstrating all 21 classic Gang of Four (GoF) design patterns in C#. Each pattern is implemented in its own class library under the `Pattern` folder, with clear, real-world examples, documentation, and logging for learning and quick reference.
 
+## Pattern README Quick Links
+
+- [Adapter](Pattern/Adapter/README.md)
+- [Bridge](Pattern/Bridge/README.md)
+- [Builder](Pattern/Builder/README.md)
+- [Chain of Responsibility](Pattern/ChainOfResponsibility/README.md)
+- [Command](Pattern/Command/README.md)
+- [Composite](Pattern/Composite/README.md)
+- [Decorator](Pattern/Decorator/README.md)
+- [Facade](Pattern/Facade/README.md)
+- [Factory](Pattern/Factory/README.md)
+- [Flyweight](Pattern/Flyweight/README.md)
+- [Interpreter](Pattern/Interpreter/README.md)
+- [Mediator](Pattern/Mediator/README.md)
+- [Memento](Pattern/Memento/README.md)
+- [Observer](Pattern/Observer/README.md)
+- [Prototype](Pattern/Prototype/README.md)
+- [Proxy](Pattern/Proxy/README.md)
+- [Singleton](Pattern/Singleton/README.md)
+- [State](Pattern/State/README.md)
+- [Strategy](Pattern/Strategy/README.md)
+- [Template Method](Pattern/TemplateMethod/README.md)
+- [Unit of Work](Pattern/UnitOfWork/README.md)
+- [Visitor](Pattern/Visitor/README.md)
+
 ## Structure
 
 ```
